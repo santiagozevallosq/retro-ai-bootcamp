@@ -1,13 +1,35 @@
 const AchievementsSection = () => {
   const achievements = [
-    "Automatizar 80% de tareas repetitivas",
-    "Crear contenido 5x más rápido",
-    "Analizar datos en segundos",
-    "Generar propuestas profesionales automáticamente",
-    "Optimizar procesos sin programar",
-    "Dominar 10+ herramientas de IA",
-    "Crear tu asistente IA personalizado",
-    "Implementar workflows inteligentes"
+    {
+      title: "COMUNICACIÓN EFECTIVA",
+      items: [
+        "Aprenderás a comunicarte de manera efectiva con la IA",
+        "Descubrirás qué tareas puedes optimizar con IA",
+        "Crearás prompts reutilizables para tu trabajo",
+        "Identificarás actividades que pueden ser asistidas"
+      ],
+      icon: "🎯"
+    },
+    {
+      title: "MEJORES RESULTADOS", 
+      items: [
+        "Mejorarás tus resultados con menos esfuerzo",
+        "Aumentarás la calidad de tu trabajo",
+        "Incrementarás la velocidad de entrega",
+        "Multiplicas el impacto en tu área"
+      ],
+      icon: "📈"
+    },
+    {
+      title: "REQUISITOS",
+      items: [
+        "Ninguno - Este curso es para todos",
+        "No necesitas programación avanzada",
+        "Ideal para estudiantes universitarios",
+        "Perfecto para profesionales que buscan eficiencia"
+      ],
+      icon: "✅"
+    }
   ];
 
   return (
@@ -27,7 +49,7 @@ const AchievementsSection = () => {
 
             <div className="text-center mb-12">
               <div className="terminal-text">
-                <h2 className="font-pixel text-2xl md:text-3xl mb-4 neon-glow">
+                <h2 className="font-pixel text-3xl md:text-4xl mb-4 neon-glow">
                   ¿QUÉ LOGRARÁS?
                 </h2>
               </div>
@@ -39,24 +61,33 @@ const AchievementsSection = () => {
               </div>
             </div>
 
-            <div className="space-y-4">
+            <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
               {achievements.map((achievement, index) => (
                 <div 
                   key={index}
-                  className="bg-card p-4 pixel-border hover:bg-muted transition-all duration-300 group"
+                  className="bg-muted p-6 pixel-border hover:bg-background transition-all duration-300 group cursor-pointer"
                   style={{
-                    animationDelay: `${index * 0.1}s`
+                    animationDelay: `${index * 0.2}s`
                   }}
                 >
-                  <div className="flex items-center space-x-4">
-                    <div className="text-primary text-xl group-hover:scale-110 transition-transform duration-300">
-                      {'>'}
+                  <div className="space-y-4">
+                    <div className="text-center">
+                      <span className="text-4xl">{achievement.icon}</span>
                     </div>
-                    <div className="font-terminal text-lg text-foreground group-hover:text-primary transition-colors duration-300">
-                      {achievement}
+                    
+                    <div className="font-pixel text-xl text-primary group-hover:neon-glow transition-all duration-300 text-center">
+                      {achievement.title}
                     </div>
-                    <div className="ml-auto text-secondary">
-                      <span className="blink">█</span>
+                    
+                    <div className="space-y-3">
+                      {achievement.items.map((item, itemIndex) => (
+                        <div key={itemIndex} className="flex items-start space-x-2">
+                          <span className="text-secondary text-lg mt-1">▸</span>
+                          <span className="font-terminal text-base text-foreground leading-relaxed">
+                            {item}
+                          </span>
+                        </div>
+                      ))}
                     </div>
                   </div>
                 </div>

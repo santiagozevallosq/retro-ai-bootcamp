@@ -11,24 +11,9 @@ const BenefitsSection = () => {
       icon: "💰"
     },
     {
-      question: "¿Quieres ser imprescindible?",
-      answer: "Domina las herramientas del futuro",
+      question: "¿Quieres ser imprescindible en tu trabajo?",
+      answer: "Domina las herramientas que todos necesitan",
       icon: "🚀"
-    },
-    {
-      question: "¿Quieres eliminar el estrés?",
-      answer: "Deja que la IA haga el trabajo pesado",
-      icon: "😌"
-    },
-    {
-      question: "¿Quieres más tiempo libre?",
-      answer: "Optimiza procesos en segundos",
-      icon: "🏖️"
-    },
-    {
-      question: "¿Quieres ventaja competitiva?",
-      answer: "Aprende antes que tu competencia",
-      icon: "⚡"
     }
   ];
 
@@ -49,16 +34,16 @@ const BenefitsSection = () => {
 
             <div className="text-center mb-12">
               <div className="terminal-text">
-                <h2 className="font-pixel text-2xl md:text-3xl mb-4 neon-glow">
-                  BENEFICIOS Y VALOR
+                <h2 className="font-pixel text-3xl md:text-4xl mb-4 neon-glow">
+                  ¿POR QUÉ LLEVAR ESTE CURSO?
                 </h2>
               </div>
-              <div className="font-terminal text-lg text-accent">
-                <span className="blink">▋</span> Ejecutando diagnóstico de productividad...
+              <div className="font-terminal text-xl text-accent">
+                <span className="blink">▋</span> Si respondes afirmativo a lo siguiente, este curso es para ti...
               </div>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
               {benefits.map((benefit, index) => (
                 <div 
                   key={index}
@@ -69,13 +54,13 @@ const BenefitsSection = () => {
                       <span className="text-3xl">{benefit.icon}</span>
                     </div>
                     
-                    <div className="font-terminal text-lg text-primary group-hover:neon-glow transition-all duration-300">
+                    <div className="font-terminal text-xl md:text-2xl text-primary group-hover:neon-glow transition-all duration-300">
                       {benefit.question}
                     </div>
                     
                     <div className="flex items-center space-x-2">
                       <span className="text-secondary text-xl">✓</span>
-                      <span className="font-terminal text-sm text-accent">
+                      <span className="font-terminal text-lg text-accent">
                         {benefit.answer}
                       </span>
                     </div>

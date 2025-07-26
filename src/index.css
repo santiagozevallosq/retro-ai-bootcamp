@@ -8,30 +8,30 @@ All colors MUST be HSL. Pixel-art inspired with terminal aesthetics.
 
 @layer base {
   :root {
-    /* Retro Terminal Colors */
-    --background: 220 13% 8%;
-    --foreground: 120 100% 85%;
+    /* Friendly Retro Colors - More approachable contrast */
+    --background: 220 15% 12%;
+    --foreground: 120 60% 90%;
 
-    --card: 220 13% 12%;
-    --card-foreground: 120 100% 85%;
+    --card: 220 15% 16%;
+    --card-foreground: 120 60% 90%;
 
-    --popover: 220 13% 10%;
-    --popover-foreground: 120 100% 85%;
+    --popover: 220 15% 14%;
+    --popover-foreground: 120 60% 90%;
 
-    /* Neon Green Primary (Matrix style) */
-    --primary: 120 100% 50%;
-    --primary-foreground: 220 13% 8%;
+    /* Softer Green Primary */
+    --primary: 120 80% 55%;
+    --primary-foreground: 220 15% 12%;
 
-    /* Cyan Secondary (Retro computer) */
-    --secondary: 180 100% 50%;
-    --secondary-foreground: 220 13% 8%;
+    /* Warmer Cyan Secondary */
+    --secondary: 180 70% 60%;
+    --secondary-foreground: 220 15% 12%;
 
-    /* Purple Accent (Synthwave) */
-    --accent: 270 100% 70%;
-    --accent-foreground: 220 13% 8%;
+    /* Friendlier Purple Accent */
+    --accent: 270 60% 75%;
+    --accent-foreground: 220 15% 12%;
 
-    --muted: 220 13% 20%;
-    --muted-foreground: 120 30% 60%;
+    --muted: 220 15% 22%;
+    --muted-foreground: 120 40% 70%;
 
     /* Warning/Alert colors */
     --destructive: 0 100% 60%;
@@ -44,12 +44,12 @@ All colors MUST be HSL. Pixel-art inspired with terminal aesthetics.
 
     --radius: 0.125rem;
 
-    /* Retro gradients and effects */
-    --gradient-matrix: linear-gradient(135deg, hsl(120 100% 20%), hsl(120 100% 50%));
-    --gradient-cyber: linear-gradient(135deg, hsl(180 100% 30%), hsl(270 100% 50%));
-    --glow-primary: 0 0 20px hsl(120 100% 50% / 0.5);
-    --glow-secondary: 0 0 20px hsl(180 100% 50% / 0.5);
-    --glow-accent: 0 0 20px hsl(270 100% 70% / 0.5);
+    /* Friendlier gradients and effects */
+    --gradient-matrix: linear-gradient(135deg, hsl(120 60% 30%), hsl(120 80% 55%));
+    --gradient-cyber: linear-gradient(135deg, hsl(180 50% 40%), hsl(270 60% 65%));
+    --glow-primary: 0 0 15px hsl(120 80% 55% / 0.4);
+    --glow-secondary: 0 0 15px hsl(180 70% 60% / 0.4);
+    --glow-accent: 0 0 15px hsl(270 60% 75% / 0.4);
 
     --sidebar-background: 0 0% 98%;
 
@@ -120,8 +120,8 @@ All colors MUST be HSL. Pixel-art inspired with terminal aesthetics.
 /* Retro Pixel Art Components */
 @layer components {
   .retro-window {
-    @apply bg-card border-2 border-primary rounded-none shadow-lg;
-    box-shadow: 4px 4px 0 hsl(var(--primary) / 0.3);
+    @apply bg-card border-2 border-primary rounded-sm shadow-lg;
+    box-shadow: 3px 3px 0 hsl(var(--primary) / 0.2);
   }
 
   .terminal-text {

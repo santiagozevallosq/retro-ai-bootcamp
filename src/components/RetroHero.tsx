@@ -24,19 +24,19 @@ const RetroHero = () => {
           <div className="space-y-8">
             <div className="terminal-text">
               <div className="font-terminal text-sm mb-2">$ iniciar_curso.sh</div>
-              <div className="font-pixel text-2xl md:text-4xl lg:text-5xl leading-tight mb-4">
+              <div className="font-pixel text-3xl md:text-5xl lg:text-6xl leading-tight mb-4">
                 CURSO PRÁCTICO:
                 <br />
                 <span className="neon-glow">PRODUCTIVIDAD 10X</span>
                 <br />
-                USANDO IA
+                USANDO INTELIGENCIA ARTIFICIAL
               </div>
             </div>
 
-            <div className="font-terminal text-lg md:text-xl text-secondary max-w-2xl mx-auto">
-              <span className="blink">▋</span> Transforma tu manera de trabajar con Inteligencia Artificial
+            <div className="font-terminal text-xl md:text-2xl text-secondary max-w-3xl mx-auto">
+              <span className="blink">▋</span> Este no es otro curso más donde aprendes muchas herramientas de IA sin uso claro.
               <br />
-              Aprende las herramientas que están revolucionando la productividad
+              Aquí aprenderás a identificar tus necesidades reales y elegir la herramienta que se ajusta a ti.
             </div>
 
             <div className="space-y-4">
