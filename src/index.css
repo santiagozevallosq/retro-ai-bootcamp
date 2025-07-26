@@ -2,41 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
+/* Retro-Futuristic AI Bootcamp Design System
+All colors MUST be HSL. Pixel-art inspired with terminal aesthetics.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Retro Terminal Colors */
+    --background: 220 13% 8%;
+    --foreground: 120 100% 85%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 220 13% 12%;
+    --card-foreground: 120 100% 85%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 220 13% 10%;
+    --popover-foreground: 120 100% 85%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Neon Green Primary (Matrix style) */
+    --primary: 120 100% 50%;
+    --primary-foreground: 220 13% 8%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Cyan Secondary (Retro computer) */
+    --secondary: 180 100% 50%;
+    --secondary-foreground: 220 13% 8%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Purple Accent (Synthwave) */
+    --accent: 270 100% 70%;
+    --accent-foreground: 220 13% 8%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --muted: 220 13% 20%;
+    --muted-foreground: 120 30% 60%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Warning/Alert colors */
+    --destructive: 0 100% 60%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Border and inputs */
+    --border: 120 100% 25%;
+    --input: 220 13% 15%;
+    --ring: 120 100% 50%;
 
-    --radius: 0.5rem;
+    --radius: 0.125rem;
+
+    /* Retro gradients and effects */
+    --gradient-matrix: linear-gradient(135deg, hsl(120 100% 20%), hsl(120 100% 50%));
+    --gradient-cyber: linear-gradient(135deg, hsl(180 100% 30%), hsl(270 100% 50%));
+    --glow-primary: 0 0 20px hsl(120 100% 50% / 0.5);
+    --glow-secondary: 0 0 20px hsl(180 100% 50% / 0.5);
+    --glow-accent: 0 0 20px hsl(270 100% 70% / 0.5);
 
     --sidebar-background: 0 0% 98%;
 
@@ -100,6 +113,69 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-mono;
+  }
+}
+
+/* Retro Pixel Art Components */
+@layer components {
+  .retro-window {
+    @apply bg-card border-2 border-primary rounded-none shadow-lg;
+    box-shadow: 4px 4px 0 hsl(var(--primary) / 0.3);
+  }
+
+  .terminal-text {
+    @apply font-mono text-primary;
+    text-shadow: 0 0 5px hsl(var(--primary) / 0.5);
+  }
+
+  .pixel-border {
+    @apply border-2 border-primary;
+    image-rendering: pixelated;
+  }
+
+  .neon-glow {
+    box-shadow: var(--glow-primary);
+    text-shadow: 0 0 10px hsl(var(--primary) / 0.8);
+  }
+
+  .cyber-button {
+    @apply bg-gradient-to-r from-primary to-secondary text-background font-bold py-3 px-6 border-2 border-transparent transition-all duration-300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 100%, 10px 100%);
+  }
+
+  .cyber-button:hover {
+    @apply scale-105;
+    box-shadow: var(--glow-primary), var(--glow-secondary);
+    filter: brightness(1.2);
+  }
+
+  .blink {
+    animation: blink 1s infinite;
+  }
+
+  @keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+  }
+
+  .scanlines::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(transparent 50%, rgba(0, 255, 0, 0.03) 50%);
+    background-size: 100% 4px;
+    pointer-events: none;
+  }
+
+  .pixel-art {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
   }
 }
