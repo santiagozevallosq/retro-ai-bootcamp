@@ -39,7 +39,7 @@ const BenefitsSection = () => {
                 </h2>
               </div>
               <div className="font-terminal text-xl text-accent">
-                <span className="blink">▋</span> Si respondes afirmativo a lo siguiente, este curso es para ti...
+                <span className="blink">▋</span> Si respondes SI a lo siguiente, este curso es para ti...
               </div>
             </div>
 
@@ -69,22 +69,7 @@ const BenefitsSection = () => {
               ))}
             </div>
 
-            <div className="mt-12 bg-background p-6 pixel-border">
-              <div className="text-center">
-                <div className="font-terminal text-xl text-primary mb-4">
-                  <span className="blink">▋</span> RESULTADO DEL ANÁLISIS:
-                </div>
-                <div className="font-pixel text-lg text-accent">
-                  PRODUCTIVIDAD ACTUAL: <span className="text-destructive">25%</span>
-                </div>
-                <div className="font-pixel text-lg text-primary neon-glow mt-2">
-                  PRODUCTIVIDAD POST-CURSO: <span className="text-secondary">250%</span>
-                </div>
-                <div className="font-terminal text-sm text-muted-foreground mt-4">
-                  ⚠️ No actualizar = quedarse atrás
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>

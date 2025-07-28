@@ -184,12 +184,12 @@ const CourseContentSection = () => {
                 </div>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="font-terminal text-lg">
-                    <div className="text-secondary mb-2">👨‍🎓 ESTUDIANTES UNIVERSITARIOS</div>
-                    <div className="text-muted-foreground">Que quieren multiplicar su productividad académica</div>
+                    <div className="text-secondary mb-2">👨‍🎓 PROFESIONALES</div>
+                    <div className="text-muted-foreground">Que buscan incrementar su productividad laboral</div>
                   </div>
                   <div className="font-terminal text-lg">
-                    <div className="text-secondary mb-2">👨‍💼 PROFESIONALES</div>
-                    <div className="text-muted-foreground">Que buscan incrementar su productividad laboral</div>
+                    <div className="text-secondary mb-2">👨‍💼 ESTUDIANTES UNIVERSITARIOS</div>
+                    <div className="text-muted-foreground">Que quieren multiplicar su productividad académica</div>
                   </div>
                   <div className="font-terminal text-lg">
                     <div className="text-secondary mb-2">🚀 EMPRENDEDORES</div>
@@ -197,7 +197,7 @@ const CourseContentSection = () => {
                   </div>
                   <div className="font-terminal text-lg">
                     <div className="text-secondary mb-2">⚡ INNOVADORES</div>
-                    <div className="text-muted-foreground">Que buscan ventaja competitiva con IA</div>
+                    <div className="text-muted-foreground">Cualquier persona que buscan ventaja competitiva con IA</div>
                   </div>
                 </div>
               </div>

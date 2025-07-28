@@ -1,32 +1,30 @@
 const AchievementsSection = () => {
   const achievements = [
     {
-      title: "COMUNICACIÓN EFECTIVA",
+      title: "MENTE ESTRATÉGICA + IA",
       items: [
         "Aprenderás a comunicarte de manera efectiva con la IA",
-        "Descubrirás qué tareas puedes optimizar con IA",
-        "Crearás prompts reutilizables para tu trabajo",
+        "Aprenderás a escribir prompts efectivos y reutilizables",
+        "Harás que la IA se adapte a ti (y no al revés)",
         "Identificarás actividades que pueden ser asistidas"
       ],
       icon: "🎯"
     },
     {
-      title: "MEJORES RESULTADOS", 
+      title: "HERRAMIENTAS PERSONALIZADAS", 
       items: [
-        "Mejorarás tus resultados con menos esfuerzo",
-        "Aumentarás la calidad de tu trabajo",
-        "Incrementarás la velocidad de entrega",
-        "Multiplicas el impacto en tu área"
+        "Conocerás que solución usar según tu necesidad",
+        "Combinarás distintas herramientas para potenciar tus resultados",
+        "Construirás tu propio ecosistema de herramientas de IA"
       ],
       icon: "📈"
     },
     {
-      title: "REQUISITOS",
+      title: "PRODUCTIVIDAD 10X",
       items: [
-        "Ninguno - Este curso es para todos",
-        "No necesitas programación avanzada",
-        "Ideal para estudiantes universitarios",
-        "Perfecto para profesionales que buscan eficiencia"
+        "Multiplicarás tu velocidad y calidad de trabajo",
+        "Simplificarás tu trabajo diario y ganarás más claridad mental",
+        "Aumentarás el impacto en tu trabajo/ estudio"
       ],
       icon: "✅"
     }
@@ -99,7 +97,7 @@ const AchievementsSection = () => {
                 <div className="text-primary text-3xl mb-2">⚡</div>
                 <div className="font-pixel text-lg text-accent">VELOCIDAD</div>
                 <div className="font-terminal text-sm text-muted-foreground mt-2">
-                  10x más rápido
+                 
                 </div>
               </div>
 
@@ -107,7 +105,7 @@ const AchievementsSection = () => {
                 <div className="text-secondary text-3xl mb-2">🎯</div>
                 <div className="font-pixel text-lg text-accent">PRECISIÓN</div>
                 <div className="font-terminal text-sm text-muted-foreground mt-2">
-                  Resultados exactos
+               
                 </div>
               </div>
 
@@ -115,7 +113,7 @@ const AchievementsSection = () => {
                 <div className="text-accent text-3xl mb-2">🧠</div>
                 <div className="font-pixel text-lg text-accent">INTELIGENCIA</div>
                 <div className="font-terminal text-sm text-muted-foreground mt-2">
-                  IA como copiloto
+                  
                 </div>
               </div>
             </div>
