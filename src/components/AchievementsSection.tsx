@@ -1,34 +1,27 @@
 const AchievementsSection = () => {
   const achievements = [
     {
-      title: "COMUNICACIÓN EFECTIVA",
+      title: "QUÉ LOGRARÁS",
       items: [
-        "Aprenderás a comunicarte de manera efectiva con la IA",
-        "Descubrirás qué tareas puedes optimizar con IA",
-        "Crearás prompts reutilizables para tu trabajo",
-        "Identificarás actividades que pueden ser asistidas"
+        "Aprenderás a comunicarte de manera efectiva con la IA. Descubrirás qué tareas puedes optimizar con IA (y cómo hacerlo).",
+        "Mejorarás tus resultados con menos esfuerzo. Aumentarás la calidad, velocidad e impacto en tu trabajo."
       ],
       icon: "🎯"
     },
     {
-      title: "MEJORES RESULTADOS", 
-      items: [
-        "Mejorarás tus resultados con menos esfuerzo",
-        "Aumentarás la calidad de tu trabajo",
-        "Incrementarás la velocidad de entrega",
-        "Multiplicas el impacto en tu área"
-      ],
-      icon: "📈"
-    },
-    {
       title: "REQUISITOS",
       items: [
-        "Ninguno - Este curso es para todos",
-        "No necesitas programación avanzada",
-        "Ideal para estudiantes universitarios",
-        "Perfecto para profesionales que buscan eficiencia"
+        "Ninguno"
       ],
       icon: "✅"
+    },
+    {
+      title: "PÚBLICO",
+      items: [
+        "A todos los que quieren incrementar su productividad mediante el uso de la Inteligencia Artificial Generativa.",
+        "Idealmente para profesionales y estudiantes universitarios que quieren multiplicar su productividad con IA sin programación avanzada y con casos prácticos."
+      ],
+      icon: "👥"
     }
   ];
 

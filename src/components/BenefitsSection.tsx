@@ -33,6 +33,9 @@ const BenefitsSection = () => {
             </div>
 
             <div className="text-center mb-12">
+              <div className="font-terminal text-xl text-accent mb-8">
+                Mi propósito es que salgas del curso y te digas a ti mismo/a encontré como ahorrar X horas…
+              </div>
               <div className="terminal-text">
                 <h2 className="font-pixel text-3xl md:text-4xl mb-4 neon-glow">
                   ¿POR QUÉ LLEVAR ESTE CURSO?

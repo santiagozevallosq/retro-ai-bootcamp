@@ -34,9 +34,7 @@ const RetroHero = () => {
             </div>
 
             <div className="font-terminal text-xl md:text-2xl text-secondary max-w-3xl mx-auto">
-              <span className="blink">▋</span> Este no es otro curso más donde aprendes muchas herramientas de IA sin uso claro.
-              <br />
-              Aquí aprenderás a identificar tus necesidades reales y elegir la herramienta que se ajusta a ti.
+              <span className="blink">▋</span> Este no es otro curso más donde aprendes muchas herramientas de IA sin uso claro para ti. Aquí aprenderás a identificar tus necesidades reales y, a partir de ahí, elegir la herramienta que realmente se ajusta a ti. Así descubrirás el verdadero poder de la IA: una tecnología que trabaja a tu favor, alineada con tus objetivos y forma de trabajar.
             </div>
 
             <div className="space-y-4">
