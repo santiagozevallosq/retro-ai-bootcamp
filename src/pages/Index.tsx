@@ -12,11 +12,11 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <RetroHero />
-      <AIStorySection />
-      <InstructorSection />
       <BenefitsSection />
+      <InstructorSection />
       <AchievementsSection />
       <CourseContentSection />
+      <AIStorySection />
       <BonusSection />
       <FinalCTASection />
       <FAQSection />

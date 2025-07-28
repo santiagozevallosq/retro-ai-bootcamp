@@ -2,17 +2,17 @@ const BenefitsSection = () => {
   const benefits = [
     {
       question: "¿Quieres trabajar menos horas?",
-      answer: "Automatiza tareas repetitivas con IA",
+      answer: "Automatiza tareas repetitivas con IA. Tu tiempo vale más",
       icon: "⏰"
     },
     {
       question: "¿Quieres ganar más dinero?",
-      answer: "Multiplica tu capacidad de entrega",
+      answer: "Aprende a usar IA para producir más en menos tiempo y con mejor calidad",
       icon: "💰"
     },
     {
-      question: "¿Quieres ser imprescindible en tu trabajo?",
-      answer: "Domina las herramientas que todos necesitan",
+      question: "¿Temes quedarte atrás en un mundo que cambia rápido?",
+      answer: "Anticipate: prepárate ahora y conviertete en el profesional que todos buscan",
       icon: "🚀"
     }
   ];

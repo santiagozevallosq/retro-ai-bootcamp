@@ -20,13 +20,65 @@ const CourseContentSection = () => {
     },
     {
       id: "03",
-      title: "HERRAMIENTAS PRÁCTICAS",
-      subtitle: "ChatGPT, Gemini, NotebookLM y más",
-      description: "Domina ChatGPT (gratuito y pago), Gemini, NotebookLM, Google AI Studio. Con mini-proyectos prácticos para cada herramienta",
-      project: "🚀 Portfolio completo con IA + Informe ejecutivo + Página web",
-      skills: ["ChatGPT completo", "Gemini y GEMS", "NotebookLM", "Google AI Studio", "Casos reales"],
+      title: "HERRAMIENTAS PRÁCTICAS: CHATGPT",
+      subtitle: "Domina el asistente más versátil",
+      description: "Explora a fondo ChatGPT (gratuito y pago): funcionalidades clave, GPT Store, Sora, Codex y automatización avanzada de tareas frecuentes.",
+      project: "🧠 Mini-proyecto: genera un informe ejecutivo a partir de un Excel, PDF y noticia online.",
+      skills: [
+        "Chat, dictado por voz, Live y compartir chats",
+        "GPT Store y asistentes personalizados",
+        "Carga de archivos, integración con Google Drive y OneDrive",
+        "Análisis de datos, creación de imágenes y documentos",
+        "ChatGPT Plus: Codex, Tareas, Sora y conectores"
+      ],
       duration: "Tema 3"
+    },
+    {
+      id: "04",
+      title: "HERRAMIENTAS PRÁCTICAS: GEMINI",
+      subtitle: "IA conectada al ecosistema Google",
+      description: "Aprende a crear GEMS (bots personalizados), integrar Google Workspace, y prototipar con IA. Accede a funciones premium como VEO 3.",
+      project: "🌐 Mini-proyecto: crea una página de presentación de tu proyecto profesional o tesis.",
+      skills: [
+        "Chat, dictado por voz, búsqueda en internet",
+        "Canvas, generación de imágenes y carga de archivos",
+        "Integración con Gmail, Drive, Calendar y YouTube",
+        "Creación de GEMS con memoria e instrucciones",
+        "Prototipado: páginas web, infografías y apps"
+      ],
+      duration: "Tema 4"
+    },
+    {
+      id: "05",
+      title: "HERRAMIENTAS PRÁCTICAS: NOTEBOOK LM",
+      subtitle: "Organiza, resume e interactúa con tus documentos",
+      description: "Descubre cómo transformar tus archivos en conocimiento accionable con resúmenes, mapas mentales y conversaciones inteligentes.",
+      project: "📚 Mini-proyecto: carga tu CV o documentos académicos y genera una presentación profesional interactiva.",
+      skills: [
+        "Análisis de múltiples formatos (PDF, YouTube, audio, web)",
+        "Carpetas inteligentes y reducción de alucinaciones",
+        "Resúmenes, guías de estudio, notas automáticas",
+        "Mapas mentales y audios estilo podcast",
+        "Interacción en tiempo real con tus archivos"
+      ],
+      duration: "Tema 5"
+    },
+    {
+      id: "06",
+      title: "HERRAMIENTAS PRÁCTICAS: GOOGLE AI STUDIO",
+      subtitle: "Explora el laboratorio de modelos de Google",
+      description: "Domina Stream, TTS y VEO. Aprende a interactuar con la IA en tiempo real con voz, cámara y pantalla compartida.",
+      project: "🎥 Mini-proyecto: crea un video de 8 segundos y una demo en vivo con pantalla compartida y voz.",
+      skills: [
+        "Stream: hablar, compartir pantalla y cámara en vivo",
+        "Generación de imágenes con Gemini 2.0 Flash",
+        "Conversaciones en vivo usando voz (Stream – Talk)",
+        "IA como guía paso a paso con pantalla compartida",
+        "Text to Speech (TTS) y creación de videos con VEO 2"
+      ],
+      duration: "Tema 6"
     }
+  
   ];
 
   return (

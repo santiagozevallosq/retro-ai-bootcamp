@@ -1,8 +1,10 @@
 import { Button } from "@/components/ui/button";
+import { Avatar, AvatarImage } from "@/components/ui/avatar";
+import instructorImage from "@/assets/foto_profesional.jpg";
 
 const InstructorSection = () => {
   const handleLinkedInRedirect = () => {
-    window.open('https://linkedin.com/in/YOUR_PROFILE', '_blank');
+    window.open('https://www.linkedin.com/in/santiago-zevallos-b6a29b44/', '_blank');
   };
 
   return (
@@ -29,46 +31,30 @@ const InstructorSection = () => {
 
               <div className="space-y-6 font-terminal text-lg">
                 <div className="bg-muted p-6 pixel-border">
+                  <Avatar className="w-24 h-24 mx-auto mb-4">
+                    <AvatarImage src={instructorImage} alt="Santiago Zevallos" />
+                  </Avatar>
                   <div className="text-primary text-xl mb-4">
-                    <span className="blink">▋</span> [TU_NOMBRE_AQUÍ]
+                    <span className="blink">▋</span> SANTIAGO ZEVALLOS
                   </div>
                   <div className="text-accent mb-2">
-                    {'>'}  rol: AI_PRODUCTIVITY_EXPERT
+                    {'>'}  Actualmente consultor en diseño e implementación de proyectos y capacitaciones en IA en el sector público.
                   </div>
                   <div className="text-accent mb-2">
-                    {'>'}  experiencia: 5+ AÑOS EN TECH
+                    {'>'}  Economista PUCP, magister en Finanzas y estudiante de la maestría en Inteligencia Artificial en la UPC.
+                  </div>
+                  <div className="text-accent mb-2">
+                    {'>'}  Más de 10 años de experiencia laboral y 3 años como docente universitario (UPC y UTP).
                   </div>
                   <div className="text-accent">
-                    {'>'}  especialidad: AUTOMATIZACIÓN_IA
-                  </div>
-                </div>
-
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div className="bg-card p-4 pixel-border">
-                    <div className="text-secondary text-sm mb-2">LOGROS:</div>
-                    <ul className="space-y-2 text-left">
-                      <li className="text-primary">✓ 500+ profesionales capacitados</li>
-                      <li className="text-primary">✓ Consultor en empresas Fortune 500</li>
-                      <li className="text-primary">✓ Speaker en conferencias tech</li>
-                      <li className="text-primary">✓ Creador de 20+ automatizaciones IA</li>
-                    </ul>
-                  </div>
-
-                  <div className="bg-card p-4 pixel-border">
-                    <div className="text-secondary text-sm mb-2">EXPERTISE:</div>
-                    <ul className="space-y-2 text-left">
-                      <li className="text-accent">◈ ChatGPT Advanced</li>
-                      <li className="text-accent">◈ Claude AI</li>
-                      <li className="text-accent">◈ Automatización con Zapier</li>
-                      <li className="text-accent">◈ Prompt Engineering</li>
-                    </ul>
+                    {'>'}  Especializado en el uso de herramientas como ChatGPT4, Gemini Pro, Google AI Studio, Notebook LM, automatizaciones non-code, low code, y más. 
                   </div>
                 </div>
 
                 <div className="bg-muted p-4 pixel-border">
                   <div className="font-terminal text-sm italic">
-                    "Mi misión es democratizar el acceso a la IA.<br />
-                    <span className="text-primary">Que cada profesional pueda 10x su productividad."</span>
+                    "Mi propósito es democratizar el uso de la IA.<br />
+                    <span className="text-primary">Quiero que cualquier profesional, sin importar su nivel técnico, pueda automatizar tareas, tomar mejores decisiones y multiplicar su productividad."</span>
                   </div>
                 </div>
 

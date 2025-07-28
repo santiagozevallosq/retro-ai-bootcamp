@@ -2,8 +2,8 @@ import { Button } from "@/components/ui/button";
 
 const RetroHero = () => {
   const handleWhatsAppRedirect = () => {
-    const message = encodeURIComponent("Hola! Me interesa el Curso Práctico: Productividad 10X usando IA");
-    window.open(`https://wa.me/YOUR_PHONE_NUMBER?text=${message}`, '_blank');
+    const message = encodeURIComponent("Hola! Quiero inscribirme en el Curso Práctico: Productividad 10X usando IA");
+    window.open(`https://wa.me/51934086161?text=${message}`, '_blank');
   };
 
   return (
@@ -34,9 +34,9 @@ const RetroHero = () => {
             </div>
 
             <div className="font-terminal text-xl md:text-2xl text-secondary max-w-3xl mx-auto">
-              <span className="blink">▋</span> Este no es otro curso más donde aprendes muchas herramientas de IA sin uso claro.
+              <span className="blink">▋</span> Este no es otro curso más donde aprendes muchas herramientas de IA sin uso claro. Aquí aprenderás a identificar tus necesidades reales y, a partir de ahí, elegir la herramienta que realmente se ajusta a ti. 
               <br />
-              Aquí aprenderás a identificar tus necesidades reales y elegir la herramienta que se ajusta a ti.
+              Así descubrirás el verdadero poder de la IA: una tecnología que trabaja a tu favor, alineada con tus objetivos y forma de trabajar.
             </div>
 
             <div className="space-y-4">
@@ -44,10 +44,13 @@ const RetroHero = () => {
                 {'>'}  Estado: <span className="text-primary">INSCRIPCIONES ABIERTAS</span>
               </div>
               <div className="font-terminal text-accent">
-                {'>'}  Modalidad: <span className="text-secondary">ONLINE + PRÁCTICO</span>
+                {'>'}  Modalidad: <span className="text-secondary">ONLINE + CASOS PRÁCTICO</span>
               </div>
               <div className="font-terminal text-accent">
-                {'>'}  Duración: <span className="text-primary">3 SEMANAS INTENSIVAS</span>
+                {'>'}  Duración: <span className="text-primary">10 HORAS</span>
+              </div>
+              <div className="font-terminal text-accent">
+                {'>'}  Inicio: <span className="text-primary">30 DE AGOSTO</span>
               </div>
             </div>
 
@@ -55,7 +58,7 @@ const RetroHero = () => {
               onClick={handleWhatsAppRedirect}
               className="cyber-button font-pixel text-lg px-8 py-4 mt-8"
             >
-              INSCRÍBETE AHORA
+              INSCRÍBETE AHORA AQUÍ
             </Button>
 
             <div className="font-terminal text-sm text-muted-foreground mt-4">
