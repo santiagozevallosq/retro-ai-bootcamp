@@ -1,4 +1,4 @@
-import aiInstructor from "@/assets/ai-instructor.jpg";
+import aiInstructor from "@/assets/ai-instructor.jpeg";
 
 const AIStorySection = () => {
   return (
@@ -27,9 +27,6 @@ const AIStorySection = () => {
 
                 <div className="font-terminal text-lg space-y-4 text-foreground">
                   <p>
-                    <span className="text-accent">{'>'}  init_story.exe</span>
-                  </p>
-                  <p>
                     Hace 3 años, era un usuario más. Probaba herramientas de IA y me parecían imperfectas, o en todo caso no quería invertir ni tiempo ni dinero en aprender. Pero al explorar más, decidí adquirir las versiones de pago, mejoré la forma de hacer consultas (prompts) a los modelos de IA Generativa y descubrí su verdadero potencial.
                     
                   </p>
@@ -42,14 +39,14 @@ const AIStorySection = () => {
                     
                   </p>
                   <p>
-                    Por eso te invito a abrir tu visión: explora, prueba, equivócate y descubre cómo la IA puede hacer una gran diferencia en tu vida personal y profesional. No necesitas programar (al menos en este punto); solo necesitas curiosidad, creatividad y ganas de aprender.
+                    Por eso te invito a abrir tu mente: explora, prueba, equivócate y descubre cómo la IA puede hacer una gran diferencia en tu vida personal y profesional. No necesitas programar; solo necesitas curiosidad, creatividad y ganas de aprender.
                     
                   </p>
                 </div>
 
                 <div className="bg-muted p-4 pixel-border">
                   <div className="font-terminal text-sm">
-                    <div className="text-primary">💡 REVELACIÓN:</div>
+                    <div className="text-primary">💡 DATO CLAVE:</div>
                     <div className="mt-2">
                       "La IA no reemplaza tu trabajo, reemplaza tu manera de trabajar"<br />
                       </div>
@@ -61,7 +58,6 @@ const AIStorySection = () => {
               <div className="relative">
                 <div className="retro-window p-4">
                   <div className="flex items-center justify-between mb-4 border-b border-primary pb-2">
-                    <span className="font-terminal text-xs text-muted-foreground">instructor.jpg</span>
                     <div className="flex space-x-1">
                       <div className="w-2 h-2 bg-primary rounded-full blink"></div>
                     </div>
@@ -72,7 +68,7 @@ const AIStorySection = () => {
                     className="w-full pixel-art rounded-none"
                   />
                   <div className="mt-4 font-terminal text-xs text-accent">
-                    {'>'}  rendering: AI_EXPERT.exe
+                    {'>'}  AI_EXPERT.exe
                   </div>
                 </div>
               </div>

@@ -7,6 +7,10 @@ const InstructorSection = () => {
     window.open('https://www.linkedin.com/in/santiago-zevallos-b6a29b44/', '_blank');
   };
 
+  const handleTikTokRedirect = () => {
+    window.open('https://www.tiktok.com/@santiagoinvierte', '_blank'); // Reemplaza con tu usuario
+  };
+
   return (
     <section className="py-16 bg-background relative">
       <div className="container mx-auto px-4">
@@ -19,7 +23,7 @@ const InstructorSection = () => {
                 <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
                 <div className="w-3 h-3 bg-primary rounded-full"></div>
               </div>
-              <span className="font-terminal text-sm text-muted-foreground">instructor_profile.sys</span>
+              <span className="font-terminal text-sm text-muted-foreground">perfil_docente.sys</span>
             </div>
 
             <div className="text-center space-y-8">
@@ -47,7 +51,7 @@ const InstructorSection = () => {
                     {'>'}  Más de 10 años de experiencia laboral y 3 años como docente universitario (UPC y UTP).
                   </div>
                   <div className="text-accent">
-                    {'>'}  Especializado en el uso de herramientas como ChatGPT4, Gemini Pro, Google AI Studio, Notebook LM, automatizaciones non-code, low code, y más. 
+                    {'>'}  Especializado en el uso de herramientas de IA Generativa (ChatGPT4, Gemini Pro, Google AI Studio, Notebook LM, otros), automatizaciones non-code, low code (n8n), lenguajes de programación (python) y más. 
                   </div>
                 </div>
 
@@ -58,16 +62,25 @@ const InstructorSection = () => {
                   </div>
                 </div>
 
-                <Button 
-                  onClick={handleLinkedInRedirect}
-                  className="cyber-button font-pixel text-base px-6 py-3"
-                  variant="outline"
-                >
-                  CONECTAR EN LINKEDIN
-                </Button>
+                <div className="flex justify-center space-x-4">
+                  <Button 
+                    onClick={handleLinkedInRedirect}
+                    className="cyber-button font-pixel text-base px-6 py-3"
+                    variant="outline"
+                  >
+                    CONECTAR EN LINKEDIN
+                  </Button>
+                  <Button 
+                    onClick={handleTikTokRedirect}
+                    className="cyber-button font-pixel text-base px-6 py-3"
+                    variant="outline"
+                  >
+                    SEGUIR EN TIKTOK
+                  </Button>
+                </div>
 
                 <div className="font-terminal text-xs text-muted-foreground">
-                  🔗 Ver perfil completo y recomendaciones
+                  🔗 Ver perfiles completos
                 </div>
               </div>
             </div>

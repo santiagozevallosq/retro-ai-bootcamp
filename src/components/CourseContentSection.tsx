@@ -3,10 +3,10 @@ const CourseContentSection = () => {
     {
       id: "01",
       title: "FUNDAMENTOS IA",
-      subtitle: "Importancia y bases mínimas",
+      subtitle: "Importancia y conceptos clave",
       description: "¿Qué está en juego si no aprendes IA? Diferencias entre IA e IA Generativa, herramientas por tipo, prompts efectivos y riesgos",
-      project: "🎯 Identifica las herramientas IA que necesitas",
-      skills: ["Herramientas por categoría", "Prompts efectivos", "Riesgos y alucinaciones", "Casos reales de productividad"],
+      project: "🎯 Identifica las herramientas IA que tu necesitas",
+      skills: ["¿Qué está en juego si no aprendes IA?", "Herramientas de IA por tipo", "Riesgos y alucinaciones de la IA", "Casos reales de incremento de productividad usando IA"],
       duration: "Tema 1"
     },
     {
@@ -15,66 +15,67 @@ const CourseContentSection = () => {
       subtitle: "Aprende a comunicarte con IA",
       description: "Cómo funcionan los prompts, estructuras básicas y avanzadas, crea prompts reutilizables e identifica actividades automatizables",
       project: "📝 Crea tu librería de prompts personalizados",
-      skills: ["Estructuras de prompts", "Prompts reutilizables", "Identificación de tareas", "Redacción, ideas y análisis"],
+      skills: ["¿Cómo funcionan realmente los prompts?", "Estructuras básicas y avanzadas de prompts", "Creación de prompts reutilizables"],
       duration: "Tema 2"
     },
     {
       id: "03",
-      title: "HERRAMIENTAS PRÁCTICAS: CHATGPT",
-      subtitle: "Domina el asistente más versátil",
+      title: "HERRAMIENTAS: CHATGPT",
+      subtitle: "Domina tu asistente personal de IA",
       description: "Explora a fondo ChatGPT (gratuito y pago): funcionalidades clave, GPT Store, Sora, Codex y automatización avanzada de tareas frecuentes.",
-      project: "🧠 Mini-proyecto: genera un informe ejecutivo a partir de un Excel, PDF y noticia online.",
+      project: "🧠 Genera un informe ejecutivo a partir de un Excel, PDF y noticia online.",
       skills: [
-        "Chat, dictado por voz, Live y compartir chats",
-        "GPT Store y asistentes personalizados",
-        "Carga de archivos, integración con Google Drive y OneDrive",
-        "Análisis de datos, creación de imágenes y documentos",
-        "ChatGPT Plus: Codex, Tareas, Sora y conectores"
+        "Uso de funciones: Chat, dictado por voz, Live y compartir chats",
+        "Uso de herramientas: investigación profunda, busqueda por internet, lienzo, modo agente, modo estudiar y aprender, carga de archivos, integración con Google Drive y One Drive",
+        "Casos de uso 1: automatización de tareas frecuentes (emails, resúmenes, propuestas, informes, borradores de trabajos académicos, ensayos, otros)",
+        "Casos de uso 2: análisis de datos (archivos Excel, códigos de programación, procesamiento de imágenes, otros)",
+        "Casos de uso 3: creación de material audiovisual (imágenes, flyer, videos, otros)",
+        "Adicional: ¿que novedades trae ChatGPT Plus? Codex, Tareas, Sora y conectores"
       ],
       duration: "Tema 3"
     },
     {
       id: "04",
-      title: "HERRAMIENTAS PRÁCTICAS: GEMINI",
+      title: "HERRAMIENTAS: GEMINI",
       subtitle: "IA conectada al ecosistema Google",
       description: "Aprende a crear GEMS (bots personalizados), integrar Google Workspace, y prototipar con IA. Accede a funciones premium como VEO 3.",
-      project: "🌐 Mini-proyecto: crea una página de presentación de tu proyecto profesional o tesis.",
+      project: "🌐 crea una página de presentación de tu proyecto profesional o tesis.",
       skills: [
-        "Chat, dictado por voz, búsqueda en internet",
-        "Canvas, generación de imágenes y carga de archivos",
+        "Uso de funciones: Chat, dictado por voz, búsqueda en internet",
+        "Uso de herramientas: investigación profunda, busqueda en internet, Canvas, generación de imágenes y carga de archivos",
         "Integración con Gmail, Drive, Calendar y YouTube",
-        "Creación de GEMS con memoria e instrucciones",
-        "Prototipado: páginas web, infografías y apps"
+        "Creación de GEMS (Chatbot) con memoria e instrucciones personalizadas",
+        "Prototipado rápido y creativo: páginas web, infografías y APPs"
       ],
       duration: "Tema 4"
     },
     {
       id: "05",
-      title: "HERRAMIENTAS PRÁCTICAS: NOTEBOOK LM",
+      title: "HERRAMIENTAS: NOTEBOOK LM",
       subtitle: "Organiza, resume e interactúa con tus documentos",
       description: "Descubre cómo transformar tus archivos en conocimiento accionable con resúmenes, mapas mentales y conversaciones inteligentes.",
-      project: "📚 Mini-proyecto: carga tu CV o documentos académicos y genera una presentación profesional interactiva.",
+      project: "📚 Carga archivos y genera mapas mentales, audios y videos de alta calidad.",
       skills: [
-        "Análisis de múltiples formatos (PDF, YouTube, audio, web)",
-        "Carpetas inteligentes y reducción de alucinaciones",
-        "Resúmenes, guías de estudio, notas automáticas",
-        "Mapas mentales y audios estilo podcast",
-        "Interacción en tiempo real con tus archivos"
+        "Análisis de archivos en múltiples formatos (PDF, YouTube, audio, web)",
+        "Creación de carpetas inteligentes que reducen las alucinaciones de las IA",
+        "Generación de resúmenes, guías de estudio, notas",
+        "Creación de mapas mentales, audios y videos estilo podcast",
+        "Interacción en tiempo real con tus archivos (modo live)"
       ],
       duration: "Tema 5"
     },
     {
       id: "06",
-      title: "HERRAMIENTAS PRÁCTICAS: GOOGLE AI STUDIO",
+      title: "HERRAMIENTAS: GOOGLE AI STUDIO",
       subtitle: "Explora el laboratorio de modelos de Google",
       description: "Domina Stream, TTS y VEO. Aprende a interactuar con la IA en tiempo real con voz, cámara y pantalla compartida.",
-      project: "🎥 Mini-proyecto: crea un video de 8 segundos y una demo en vivo con pantalla compartida y voz.",
+      project: "🎥 Crea un video de 8 segundos de un documento de tu trabajo/ estudio.",
       skills: [
-        "Stream: hablar, compartir pantalla y cámara en vivo",
         "Generación de imágenes con Gemini 2.0 Flash",
-        "Conversaciones en vivo usando voz (Stream – Talk)",
-        "IA como guía paso a paso con pantalla compartida",
-        "Text to Speech (TTS) y creación de videos con VEO 2"
+        "Conversaciones en vivo usando voz (Stream Talk)",
+        "Comparte tu pantalla a la IA para resolver tus dudas en tiempo real",
+        "Genera audios con voces naturales con el modelo TTS",
+        "Creación de videos con VEO 2"
       ],
       duration: "Tema 6"
     }
@@ -101,9 +102,6 @@ const CourseContentSection = () => {
                 <h2 className="font-pixel text-3xl md:text-4xl mb-4 neon-glow">
                   CONTENIDO DEL CURSO
                 </h2>
-              </div>
-              <div className="font-terminal text-xl text-accent">
-                <span className="blink">▋</span> Cargando contenido práctico y casos reales...
               </div>
             </div>
 
@@ -142,19 +140,6 @@ const CourseContentSection = () => {
                       </div>
                     </div>
 
-                    <div className="bg-muted p-4 pixel-border">
-                      <div className="font-terminal text-base text-foreground leading-relaxed">
-                        {module.description}
-                      </div>
-                    </div>
-
-                    <div className="bg-background p-4 pixel-border">
-                      <div className="font-terminal text-base">
-                        <div className="text-accent mb-2 text-lg">PROYECTO PRÁCTICO:</div>
-                        <div className="text-primary text-lg">{module.project}</div>
-                      </div>
-                    </div>
-
                     <div className="space-y-3">
                       <div className="font-terminal text-base text-accent">APRENDERÁS:</div>
                       {module.skills.map((skill, skillIndex) => (
@@ -165,11 +150,20 @@ const CourseContentSection = () => {
                           </span>
                         </div>
                       ))}
+
+                    <div className="bg-background p-4 pixel-border">
+                      <div className="font-terminal text-base">
+                        <div className="text-accent mb-2 text-lg">MINI PROYECTO PRÁCTICO:</div>
+                        <div className="text-primary text-lg">{module.project}</div>
+                      </div>
+                    </div>
+
+
                     </div>
 
                     <div className="text-center pt-4">
                       <div className="font-terminal text-xs text-muted-foreground">
-                        {'>'}  status: READY_TO_LOAD
+                        {'>'}  status: READY_TO_START
                       </div>
                     </div>
                   </div>

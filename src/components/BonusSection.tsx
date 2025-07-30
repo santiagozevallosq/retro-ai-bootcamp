@@ -1,36 +1,10 @@
-import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import CountdownTimer from "@/components/CountdownTimer";
 
 const BonusSection = () => {
-  const [timeLeft, setTimeLeft] = useState({
-    days: 2,
-    hours: 23,
-    minutes: 45,
-    seconds: 30
-  });
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setTimeLeft(prev => {
-        if (prev.seconds > 0) {
-          return { ...prev, seconds: prev.seconds - 1 };
-        } else if (prev.minutes > 0) {
-          return { ...prev, minutes: prev.minutes - 1, seconds: 59 };
-        } else if (prev.hours > 0) {
-          return { ...prev, hours: prev.hours - 1, minutes: 59, seconds: 59 };
-        } else if (prev.days > 0) {
-          return { ...prev, days: prev.days - 1, hours: 23, minutes: 59, seconds: 59 };
-        }
-        return prev;
-      });
-    }, 1000);
-
-    return () => clearInterval(timer);
-  }, []);
-
   const handleWhatsAppRedirect = () => {
     const message = encodeURIComponent("¡Quiero asegurar mi lugar en el curso con el bonus incluido!");
-    window.open(`https://wa.me/YOUR_PHONE_NUMBER?text=${message}`, '_blank');
+    window.open(`https://wa.me/51934086161?text=${message}`, '_blank');
   };
 
   return (
@@ -62,29 +36,7 @@ const BonusSection = () => {
             {/* Countdown Timer */}
             <div className="mb-8">
               <div className="bg-muted p-6 pixel-border">
-                <div className="text-center mb-4">
-                  <div className="font-terminal text-accent text-sm mb-2">
-                    TIEMPO RESTANTE PARA BONUS:
-                  </div>
-                </div>
-                
-                <div className="grid grid-cols-4 gap-4 max-w-md mx-auto">
-                  {[
-                    { label: "DÍAS", value: timeLeft.days },
-                    { label: "HRS", value: timeLeft.hours },
-                    { label: "MIN", value: timeLeft.minutes },
-                    { label: "SEG", value: timeLeft.seconds }
-                  ].map((item, index) => (
-                    <div key={index} className="retro-window p-3 text-center">
-                      <div className="font-pixel text-xl text-primary neon-glow">
-                        {item.value.toString().padStart(2, '0')}
-                      </div>
-                      <div className="font-terminal text-xs text-accent mt-1">
-                        {item.label}
-                      </div>
-                    </div>
-                  ))}
-                </div>
+                 <CountdownTimer targetDate="2025-08-29T00:00:00" />
               </div>
             </div>
 
@@ -98,20 +50,17 @@ const BonusSection = () => {
                   <div className="space-y-3 font-terminal text-sm">
                     <div className="flex items-center space-x-2">
                       <span className="text-secondary">✓</span>
-                      <span>Guía: "100 Prompts Que Cambiarán Tu Vida"</span>
+                      <span>Guía: "Prompts Que Cambiarán Tu Vida"</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <span className="text-secondary">✓</span>
-                      <span>1 hora de consultoría personalizada</span>
+                      <span>1 hora de asesoría virtual 1 a 1</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <span className="text-secondary">✓</span>
-                      <span>Acceso a comunidad VIP de por vida</span>
+                      <span>Acceso a comunidad de Whatsapp de por vida</span>
                     </div>
-                    <div className="flex items-center space-x-2">
-                      <span className="text-secondary">✓</span>
-                      <span>Templates de automatización premium</span>
-                    </div>
+
                   </div>
                 </div>
               </div>
@@ -123,27 +72,27 @@ const BonusSection = () => {
                   </div>
                   <div className="space-y-2 font-terminal">
                     <div className="flex justify-between text-sm">
-                      <span>Curso Principal:</span>
-                      <span className="text-primary">$497</span>
+                      <span>Curso:</span>
+                      <span className="text-primary">S/ 250</span>
                     </div>
                     <div className="flex justify-between text-sm">
                       <span>Guía de Prompts:</span>
-                      <span className="text-primary">$97</span>
+                      <span className="text-primary">S/ 100</span>
                     </div>
                     <div className="flex justify-between text-sm">
-                      <span>Consultoría 1:1:</span>
-                      <span className="text-primary">$200</span>
+                      <span>Asesoría individual 1:1:</span>
+                      <span className="text-primary">S/ 100</span>
                     </div>
                     <div className="flex justify-between text-sm">
                       <span>Comunidad VIP:</span>
-                      <span className="text-primary">$47/mes</span>
+                      <span className="text-primary">S/ 50</span>
                     </div>
                     <div className="border-t border-primary pt-2 mt-2">
                       <div className="flex justify-between font-pixel text-lg">
-                        <span className="text-destructive line-through">VALOR: $841</span>
+                        <span className="text-destructive line-through">VALOR: S/ 500</span>
                       </div>
                       <div className="flex justify-between font-pixel text-xl text-primary neon-glow">
-                        <span>HOY: $197</span>
+                        <span>HOY: S/ 150</span>
                       </div>
                     </div>
                   </div>
@@ -161,18 +110,11 @@ const BonusSection = () => {
               </Button>
               
               <div className="font-terminal text-sm text-muted-foreground">
-                ⏱️ Solo quedan 3 cupos disponibles
+                ⏱️ Cupos limitados 
               </div>
             </div>
 
-            {/* Status Bar */}
-            <div className="mt-8 bg-muted p-4 pixel-border">
-              <div className="flex justify-between items-center font-terminal text-xs">
-                <span className="text-accent">{'>'}  cupos_disponibles: 3/10</span>
-                <span className="text-primary blink">URGENTE</span>
-                <span className="text-secondary">descuento: 76%</span>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>

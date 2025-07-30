@@ -4,16 +4,15 @@ const AchievementsSection = () => {
       title: "MENTE ESTRATÉGICA + IA",
       items: [
         "Aprenderás a comunicarte de manera efectiva con la IA",
-        "Aprenderás a escribir prompts efectivos y reutilizables",
         "Harás que la IA se adapte a ti (y no al revés)",
-        "Identificarás actividades que pueden ser asistidas"
+        "Identificarás actividades que pueden ser asistidas con IA"
       ],
       icon: "🎯"
     },
     {
       title: "HERRAMIENTAS PERSONALIZADAS", 
       items: [
-        "Conocerás que solución usar según tu necesidad",
+        "Aprenderás a usar herramientas según tu necesidad",
         "Combinarás distintas herramientas para potenciar tus resultados",
         "Construirás tu propio ecosistema de herramientas de IA"
       ],
@@ -48,11 +47,8 @@ const AchievementsSection = () => {
             <div className="text-center mb-12">
               <div className="terminal-text">
                 <h2 className="font-pixel text-3xl md:text-4xl mb-4 neon-glow">
-                  ¿QUÉ LOGRARÁS?
+                  ¿QUÉ LOGRARÁS AL FINALIZAR EL CURSO?
                 </h2>
-              </div>
-              <div className="font-terminal text-lg text-accent mb-4">
-                {'>'}  compilando objetivos_aprendizaje.exe
               </div>
               <div className="font-terminal text-sm text-muted-foreground">
                 <span className="blink">▋</span> Cargando habilidades del futuro...
@@ -124,7 +120,7 @@ const AchievementsSection = () => {
                   [STATUS]: MISIÓN_ACTIVADA
                 </div>
                 <div className="text-accent text-sm">
-                  🎮 ¡Es hora de subir de nivel!
+                  🎮 ¡Es hora de subir de nivel, iscribete al curso!
                 </div>
               </div>
             </div>

@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import CountdownTimer from "@/components/CountdownTimer";
 
 const RetroHero = () => {
   const handleWhatsAppRedirect = () => {
@@ -17,13 +18,18 @@ const RetroHero = () => {
               <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
               <div className="w-3 h-3 bg-primary rounded-full"></div>
             </div>
-            <span className="font-sans text-sm text-muted-foreground">AI_BOOTCAMP.exe</span>
+            <span className="font-sans text-sm text-muted-foreground"> </span>
           </div>
 
           {/* Main Content */}
           <div className="space-y-8">
+
+            <div className="my-8">
+              <CountdownTimer targetDate="2025-08-29T00:00:00" />
+            </div>
+
             <div className="terminal-text">
-              <div className="font-sans text-sm mb-2">$ iniciar_curso.sh</div>
+              <div className="font-sans text-sm mb-2"> </div>
               <div className="font-sans text-3xl md:text-5xl lg:text-6xl leading-tight mb-4">
                 CURSO PRÁCTICO:
                 <br />
@@ -34,9 +40,9 @@ const RetroHero = () => {
             </div>
 
             <div className="font-sans text-xl md:text-2xl text-secondary max-w-3xl mx-auto">
-              <span className="blink">▋</span> Este no es otro curso más donde aprendes muchas herramientas de IA sin uso claro. Aquí aprenderás a identificar tus necesidades reales y, a partir de ahí, elegir la herramienta que realmente se ajusta a ti. 
+              <span className="blink">▋</span> IA a tu medida: sabemos que quieres trabajar menos horas, ganar más y no quedarte atrás. Aquí aprenderás a usar la inteligencia artificial de forma estratégica, eligiendo las herramientas que realmente transforman tu día a día. 
               <br />
-              Así descubrirás el verdadero poder de la IA: una tecnología que trabaja a tu favor, alineada con tus objetivos y forma de trabajar.
+               
             </div>
 
             <div className="space-y-4">
@@ -44,7 +50,7 @@ const RetroHero = () => {
                 {'>'}  Estado: <span className="text-primary">INSCRIPCIONES ABIERTAS</span>
               </div>
               <div className="font-sans text-accent">
-                {'>'}  Modalidad: <span className="text-secondary">ONLINE + CASOS PRÁCTICO</span>
+                {'>'}  Modalidad: <span className="text-primary">VIRTUAL</span>
               </div>
               <div className="font-sans text-accent">
                 {'>'}  Duración: <span className="text-primary">10 HORAS</span>
@@ -54,15 +60,16 @@ const RetroHero = () => {
               </div>
             </div>
 
+
             <Button 
               onClick={handleWhatsAppRedirect}
               className="cyber-button font-sans text-lg px-8 py-4 mt-8"
             >
-              INSCRÍBETE AHORA AQUÍ
+              INSCRÍBETE AHORA AQUÍ (Y ACCEDE AL DESCUENTO POR LANZAMIENTO)
             </Button>
 
             <div className="font-sans text-sm text-muted-foreground mt-4">
-              ⚡ Plazas limitadas • Acceso inmediato • Certificado incluido
+              ⚡ Cupos limitados • Acceso inmediato al Whatsapp del curso • Certificado (opcional)
             </div>
           </div>
         </div>

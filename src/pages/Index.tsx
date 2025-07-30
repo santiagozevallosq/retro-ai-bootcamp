@@ -7,6 +7,7 @@ import CourseContentSection from "@/components/CourseContentSection";
 import BonusSection from "@/components/BonusSection";
 import FinalCTASection from "@/components/FinalCTASection";
 import FAQSection from "@/components/FAQSection";
+import SocialMediaSection from "@/components/SocialMediaSection";
 
 const Index = () => {
   return (
@@ -18,7 +19,7 @@ const Index = () => {
       <CourseContentSection />
       <AIStorySection />
       <BonusSection />
-      <FinalCTASection />
+      <SocialMediaSection />
       <FAQSection />
     </div>
   );

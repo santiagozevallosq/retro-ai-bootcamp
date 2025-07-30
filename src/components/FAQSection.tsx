@@ -6,27 +6,23 @@ const FAQSection = () => {
   const faqs = [
     {
       question: "¿Necesito experiencia previa en IA?",
-      answer: "No. Este curso está diseñado para principiantes. Comenzamos desde cero y te llevamos paso a paso hasta nivel avanzado."
+      answer: "No. Este curso está diseñado para principiantes."
     },
     {
       question: "¿Cuánto tiempo necesito dedicar por semana?",
-      answer: "Solo 2-3 horas por semana. El curso está optimizado para profesionales ocupados que quieren resultados rápidos."
+      answer: "Solo 4 horas por semana. El curso está optimizado para profesionales y estudiantes ocupados que quieren resultados."
     },
     {
       question: "¿Las herramientas tienen costo adicional?",
-      answer: "Usamos principalmente herramientas gratuitas. Para algunas funciones avanzadas hay planes desde $20/mes que se pagan solos."
+      answer: "No. En el curso se usa herramientas gratuitas."
     },
     {
-      question: "¿Puedo aplicarlo a mi industria específica?",
-      answer: "Sí. Cubrimos casos de uso para marketing, ventas, consultoría, diseño, finanzas, legal, educación y más."
+      question: "¿Puedo aplicarlo a mis actividades diarias?",
+      answer: "Sí. El objetivo es que puedas adaptar las herramientas de IA a tus necesidades."
     },
     {
       question: "¿Qué pasa si no puedo asistir en vivo?",
-      answer: "Todas las clases se graban. Tendrás acceso de por vida al contenido y podrás verlo cuando quieras."
-    },
-    {
-      question: "¿Hay garantía de devolución?",
-      answer: "Sí. 30 días de garantía total. Si no estás satisfecho, te devolvemos el 100% de tu dinero."
+      answer: "Todas las clases en vivo se graban. Tendrás acceso al contenido grabado en y podrás verlo cuando quieras."
     }
   ];
 

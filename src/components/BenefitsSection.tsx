@@ -2,17 +2,17 @@ const BenefitsSection = () => {
   const benefits = [
     {
       question: "¿Quieres trabajar menos horas?",
-      answer: "Automatiza tareas repetitivas con IA. Tu tiempo vale más",
+      answer: "Automatiza tareas repetitivas con IA. Tu tiempo vale más.",
       icon: "⏰"
     },
     {
       question: "¿Quieres ganar más dinero?",
-      answer: "Aprende a usar IA para producir más en menos tiempo y con mejor calidad",
+      answer: "Aprende a usar IA para producir más en menos tiempo y con mejor calidad.",
       icon: "💰"
     },
     {
       question: "¿Temes quedarte atrás en un mundo que cambia rápido?",
-      answer: "Anticipate: prepárate ahora y conviertete en el profesional que todos buscan",
+      answer: "Anticipate: prepárate ahora y conviertete en el profesional que todos buscan.",
       icon: "🚀"
     }
   ];
@@ -29,7 +29,7 @@ const BenefitsSection = () => {
                 <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
                 <div className="w-3 h-3 bg-primary rounded-full"></div>
               </div>
-              <span className="font-terminal text-sm text-muted-foreground">beneficios_checklist.exe</span>
+              <span className="font-terminal text-sm text-muted-foreground">beneficios.exe</span>
             </div>
 
             <div className="text-center mb-12">
@@ -39,7 +39,7 @@ const BenefitsSection = () => {
                 </h2>
               </div>
               <div className="font-terminal text-xl text-accent">
-                <span className="blink">▋</span> Si respondes SI a lo siguiente, este curso es para ti...
+                <span className="blink">▋</span> Si respondes con un "SI" a lo siguiente, este curso es para ti...
               </div>
             </div>
 

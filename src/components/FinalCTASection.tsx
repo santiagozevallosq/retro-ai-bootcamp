@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 const FinalCTASection = () => {
   const handleWhatsAppRedirect = () => {
     const message = encodeURIComponent("¡Estoy listo/a para transformar mi productividad con IA! Quiero inscribirme al curso.");
-    window.open(`https://wa.me/YOUR_PHONE_NUMBER?text=${message}`, '_blank');
+    window.open(`https://wa.me/51934086161?text=${message}`, '_blank');
   };
 
   return (
