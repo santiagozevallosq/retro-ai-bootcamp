@@ -15,19 +15,19 @@ import linkedinImage1 from "@/assets/Linkedin-1.png"; // Asumiendo que tienes un
 const socialMediaContent = [
   {
     platform: "TikTok",
-    url: "https://www.tiktok.com/@your_username/video/12345", // Reemplaza con la URL de tu video de TikTok
+    url: "https://www.tiktok.com/@santiagoinvierte/video/7514165298115644728", // Reemplaza con la URL de tu video de TikTok
     thumbnail: tiktokImage1,
     title: "Mi primer video de TikTok",
   },
   {
     platform: "TikTok",
-    url: "https://www.tiktok.com/@your_username/video/67890", // Reemplaza con la URL de tu video de TikTok
+    url: "https://www.tiktok.com/@santiagoinvierte/video/7499115074527743237", // Reemplaza con la URL de tu video de TikTok
     thumbnail: tiktokImage2,
     title: "Otro video de TikTok",
   },
   {
     platform: "LinkedIn",
-    url: "https://www.linkedin.com/posts/your_profile_activity-12345/", // Reemplaza con la URL de tu post de LinkedIn
+    url: "https://www.linkedin.com/feed/update/urn:li:activity:7338797041294172160/", // Reemplaza con la URL de tu post de LinkedIn
     thumbnail: linkedinImage1,
     title: "Mi post de LinkedIn",
   },

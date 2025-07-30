@@ -65,7 +65,7 @@ const RetroHero = () => {
               onClick={handleWhatsAppRedirect}
               className="cyber-button font-sans text-lg px-8 py-4 mt-8"
             >
-              INSCRÍBETE AHORA AQUÍ (Y ACCEDE AL DESCUENTO POR LANZAMIENTO)
+              INSCRÍBETE AHORA AQUÍ)
             </Button>
 
             <div className="font-sans text-sm text-muted-foreground mt-4">
