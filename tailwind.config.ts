@@ -19,7 +19,7 @@ export default {
 		},
 		extend: {
 			      fontFamily: {
-        sans: ['VT323', 'monospace'],
+        sans: ['Space Mono', 'monospace'],
         mono: ['Space Mono', 'monospace'],
       },
 			colors: {

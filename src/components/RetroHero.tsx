@@ -17,14 +17,14 @@ const RetroHero = () => {
               <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
               <div className="w-3 h-3 bg-primary rounded-full"></div>
             </div>
-            <span className="font-terminal text-sm text-muted-foreground">AI_BOOTCAMP.exe</span>
+            <span className="font-sans text-sm text-muted-foreground">AI_BOOTCAMP.exe</span>
           </div>
 
           {/* Main Content */}
           <div className="space-y-8">
             <div className="terminal-text">
-              <div className="font-terminal text-sm mb-2">$ iniciar_curso.sh</div>
-              <div className="font-pixel text-3xl md:text-5xl lg:text-6xl leading-tight mb-4">
+              <div className="font-sans text-sm mb-2">$ iniciar_curso.sh</div>
+              <div className="font-sans text-3xl md:text-5xl lg:text-6xl leading-tight mb-4">
                 CURSO PRÁCTICO:
                 <br />
                 <span className="neon-glow">PRODUCTIVIDAD 10X</span>
@@ -33,35 +33,35 @@ const RetroHero = () => {
               </div>
             </div>
 
-            <div className="font-terminal text-xl md:text-2xl text-secondary max-w-3xl mx-auto">
+            <div className="font-sans text-xl md:text-2xl text-secondary max-w-3xl mx-auto">
               <span className="blink">▋</span> Este no es otro curso más donde aprendes muchas herramientas de IA sin uso claro. Aquí aprenderás a identificar tus necesidades reales y, a partir de ahí, elegir la herramienta que realmente se ajusta a ti. 
               <br />
               Así descubrirás el verdadero poder de la IA: una tecnología que trabaja a tu favor, alineada con tus objetivos y forma de trabajar.
             </div>
 
             <div className="space-y-4">
-              <div className="font-terminal text-accent">
+              <div className="font-sans text-accent">
                 {'>'}  Estado: <span className="text-primary">INSCRIPCIONES ABIERTAS</span>
               </div>
-              <div className="font-terminal text-accent">
+              <div className="font-sans text-accent">
                 {'>'}  Modalidad: <span className="text-secondary">ONLINE + CASOS PRÁCTICO</span>
               </div>
-              <div className="font-terminal text-accent">
+              <div className="font-sans text-accent">
                 {'>'}  Duración: <span className="text-primary">10 HORAS</span>
               </div>
-              <div className="font-terminal text-accent">
+              <div className="font-sans text-accent">
                 {'>'}  Inicio: <span className="text-primary">30 DE AGOSTO</span>
               </div>
             </div>
 
             <Button 
               onClick={handleWhatsAppRedirect}
-              className="cyber-button font-pixel text-lg px-8 py-4 mt-8"
+              className="cyber-button font-sans text-lg px-8 py-4 mt-8"
             >
               INSCRÍBETE AHORA AQUÍ
             </Button>
 
-            <div className="font-terminal text-sm text-muted-foreground mt-4">
+            <div className="font-sans text-sm text-muted-foreground mt-4">
               ⚡ Plazas limitadas • Acceso inmediato • Certificado incluido
             </div>
           </div>
@@ -70,7 +70,7 @@ const RetroHero = () => {
 
       {/* Background Matrix Effect */}
       <div className="absolute inset-0 opacity-10 pointer-events-none">
-        <div className="font-terminal text-xs text-primary leading-none">
+        <div className="font-sans text-xs text-primary leading-none">
           {Array.from({ length: 50 }, (_, i) => (
             <div key={i} className="animate-pulse">
               {Math.random().toString(36).substring(2, 15)}
