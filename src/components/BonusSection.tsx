@@ -50,7 +50,7 @@ const BonusSection = () => {
                   <div className="space-y-3 font-terminal text-sm">
                     <div className="flex items-center space-x-2">
                       <span className="text-secondary">✓</span>
-                      <span>Guía: "Prompts Que Cambiarán Tu Vida"</span>
+                      <span>Ebook: Recursos utiles de IA para el día a día</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <span className="text-secondary">✓</span>
@@ -76,11 +76,7 @@ const BonusSection = () => {
                       <span className="text-primary">S/ 250</span>
                     </div>
                     <div className="flex justify-between text-sm">
-                      <span>Guía de Prompts:</span>
-                      <span className="text-primary">S/ 100</span>
-                    </div>
-                    <div className="flex justify-between text-sm">
-                      <span>Asesoría individual 1:1:</span>
+                      <span>Ebook:</span>
                       <span className="text-primary">S/ 100</span>
                     </div>
                     <div className="flex justify-between text-sm">
@@ -89,7 +85,7 @@ const BonusSection = () => {
                     </div>
                     <div className="border-t border-primary pt-2 mt-2">
                       <div className="flex justify-between font-pixel text-lg">
-                        <span className="text-destructive line-through">VALOR: S/ 500</span>
+                        <span className="text-destructive line-through">VALOR: S/ 400</span>
                       </div>
                       <div className="flex justify-between font-pixel text-xl text-primary neon-glow">
                         <span>HOY: S/ 150</span>
@@ -111,6 +107,7 @@ const BonusSection = () => {
               
               <div className="font-terminal text-sm text-muted-foreground">
                 ⏱️ Cupos limitados 
+                ⏱️ Forma de pago (Plin, transferencia bancaria, Paypal)                
               </div>
             </div>
 

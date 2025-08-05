@@ -6,7 +6,7 @@ const FAQSection = () => {
   const faqs = [
     {
       question: "¿Necesito experiencia previa en IA?",
-      answer: "No. Este curso está diseñado para principiantes."
+      answer: "No. Este curso está diseñado para principiantes de todas las edades (jovenes y adultos)"
     },
     {
       question: "¿Cuánto tiempo necesito dedicar por semana?",

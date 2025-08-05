@@ -29,7 +29,7 @@ const InstructorSection = () => {
             <div className="text-center space-y-8">
               <div className="terminal-text">
                 <h2 className="font-pixel text-2xl md:text-3xl mb-4 neon-glow">
-                  ¿QUIÉN DICTA EL TALLER?
+                  ¿QUIÉN TE ENSEÑARÁ ESTE CURSO?
                 </h2>
               </div>
 
@@ -42,13 +42,13 @@ const InstructorSection = () => {
                     <span className="blink">▋</span> SANTIAGO ZEVALLOS
                   </div>
                   <div className="text-accent mb-2">
-                    {'>'}  Actualmente consultor en diseño e implementación de proyectos y capacitaciones en IA en el sector público.
+                    {'>'}  Actualmente consultor en diseño e implementación de proyectos de IA en el sector público.
+                  </div>
+                  <div className="text-accent mb-2">
+                    {'>'}  Más de 10 años de experiencia laboral (Ministerio de Vivienda, Ministerio de Transportes, Ministerio de la Producción, entre otros) y 3 años como docente universitario (UPC y UTP). 
                   </div>
                   <div className="text-accent mb-2">
                     {'>'}  Economista PUCP, magister en Finanzas y estudiante de la maestría en Inteligencia Artificial en la UPC.
-                  </div>
-                  <div className="text-accent mb-2">
-                    {'>'}  Más de 10 años de experiencia laboral y 3 años como docente universitario (UPC y UTP).
                   </div>
                   <div className="text-accent">
                     {'>'}  Especializado en el uso de herramientas de IA Generativa (ChatGPT4, Gemini Pro, Google AI Studio, Notebook LM, otros), automatizaciones non-code, low code (n8n), lenguajes de programación (python) y más. 

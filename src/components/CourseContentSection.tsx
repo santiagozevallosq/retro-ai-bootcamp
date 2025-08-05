@@ -179,15 +179,11 @@ const CourseContentSection = () => {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="font-terminal text-lg">
                     <div className="text-secondary mb-2">👨‍🎓 PROFESIONALES</div>
-                    <div className="text-muted-foreground">Que buscan incrementar su productividad laboral</div>
+                    <div className="text-muted-foreground">Que buscan incrementar su productividad en el trabajo</div>
                   </div>
                   <div className="font-terminal text-lg">
                     <div className="text-secondary mb-2">👨‍💼 ESTUDIANTES UNIVERSITARIOS</div>
                     <div className="text-muted-foreground">Que quieren multiplicar su productividad académica</div>
-                  </div>
-                  <div className="font-terminal text-lg">
-                    <div className="text-secondary mb-2">🚀 EMPRENDEDORES</div>
-                    <div className="text-muted-foreground">Que quieren automatizar procesos sin programación</div>
                   </div>
                   <div className="font-terminal text-lg">
                     <div className="text-secondary mb-2">⚡ INNOVADORES</div>

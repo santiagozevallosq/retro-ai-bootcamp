@@ -27,11 +27,11 @@ const AIStorySection = () => {
 
                 <div className="font-terminal text-lg space-y-4 text-foreground">
                   <p>
-                    Hace 3 años, era un usuario más. Probaba herramientas de IA y me parecían imperfectas, o en todo caso no quería invertir ni tiempo ni dinero en aprender. Pero al explorar más, decidí adquirir las versiones de pago, mejoré la forma de hacer consultas (prompts) a los modelos de IA Generativa y descubrí su verdadero potencial.
+                    Hace 3 años, era un usuario más. Utilizaba herramientas de IA y me parecían imperfectas, o en todo caso no quería invertir ni tiempo ni dinero en aprender. Pero al explorar más, decidí adquirir las versiones de pago, mejoré la forma de hacer consultas (prompts) a los modelos de IA Generativa y entendí que esto no es una moda pasajera.
                     
                   </p>
                   <p>
-                    Lo que empezó por curiosidad se convirtió en una transformación: implementé ideas en mi trabajo, optimicé actividades diarias, llevé cursos especializados y profundicé en programación, automatización de flujos y agentes de IA.
+                    Lo que empezó por curiosidad se convirtió en una transformación: implementé ideas en mi trabajo, optimicé actividades diarias, llevé cursos especializados, profundicé en programación, automatización de flujos y agentes de IA.
                     
                   </p>
                   <p>
@@ -39,7 +39,7 @@ const AIStorySection = () => {
                     
                   </p>
                   <p>
-                    Por eso te invito a abrir tu mente: explora, prueba, equivócate y descubre cómo la IA puede hacer una gran diferencia en tu vida personal y profesional. No necesitas programar; solo necesitas curiosidad, creatividad y ganas de aprender.
+                    Por eso te invito a abrir tu mente: explora, prueba, equivócate y descubre cómo la IA puede hacer una gran diferencia en tu vida personal y profesional. No necesitas saber programar, solo necesitas curiosidad, creatividad y ganas de aprender.
                     
                   </p>
                 </div>

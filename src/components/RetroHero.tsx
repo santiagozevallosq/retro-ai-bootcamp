@@ -50,11 +50,17 @@ const RetroHero = () => {
                 {'>'}  Estado: <span className="text-primary">INSCRIPCIONES ABIERTAS</span>
               </div>
               <div className="font-sans text-accent">
-                {'>'}  Modalidad: <span className="text-primary">VIRTUAL</span>
+                {'>'}  Modalidad: <span className="text-primary">VIRTUAL EN VIVO</span>
+              </div>
+              <div className="font-sans text-accent">
+                {'>'}  Oferta por lanzamiento: <span className="text-primary">S/ 150</span>
               </div>
               <div className="font-sans text-accent">
                 {'>'}  Duración: <span className="text-primary">10 HORAS</span>
               </div>
+              <div className="font-sans text-accent">
+                {'>'}  Horario: <span className="text-primary">Sábados y domingos, 10am- 12m</span>
+              </div>              
               <div className="font-sans text-accent">
                 {'>'}  Inicio: <span className="text-primary">30 DE AGOSTO</span>
               </div>

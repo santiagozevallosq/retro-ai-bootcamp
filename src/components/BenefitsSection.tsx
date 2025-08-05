@@ -35,11 +35,11 @@ const BenefitsSection = () => {
             <div className="text-center mb-12">
               <div className="terminal-text">
                 <h2 className="font-pixel text-3xl md:text-4xl mb-4 neon-glow">
-                  ¿POR QUÉ LLEVAR ESTE CURSO?
+                  ¿QUIERES SABER SI ESTE CURSO ES PARA TI?
                 </h2>
               </div>
               <div className="font-terminal text-xl text-accent">
-                <span className="blink">▋</span> Si respondes con un "SI" a lo siguiente, este curso es para ti...
+                <span className="blink">▋</span> Solo responde estas preguntas...
               </div>
             </div>
 
