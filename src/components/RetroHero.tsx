@@ -62,7 +62,7 @@ const RetroHero = () => {
                 {'>'}  Horario: <span className="text-primary">Sábados y domingos, 10am- 12m</span>
               </div>              
               <div className="font-sans text-accent">
-                {'>'}  Inicio: <span className="text-primary">30 DE AGOSTO</span>
+                {'>'}  Inicio: <span className="text-primary">23 DE AGOSTO</span>
               </div>
             </div>
 
