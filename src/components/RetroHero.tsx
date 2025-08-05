@@ -25,7 +25,7 @@ const RetroHero = () => {
           <div className="space-y-8">
 
             <div className="my-8">
-              <CountdownTimer targetDate="2025-08-29T00:00:00" />
+              <CountdownTimer targetDate="2025-08-23T00:00:00" />
             </div>
 
             <div className="terminal-text">

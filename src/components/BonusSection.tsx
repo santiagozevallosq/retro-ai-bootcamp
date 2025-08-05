@@ -36,7 +36,7 @@ const BonusSection = () => {
             {/* Countdown Timer */}
             <div className="mb-8">
               <div className="bg-muted p-6 pixel-border">
-                 <CountdownTimer targetDate="2025-08-29T00:00:00" />
+                 <CountdownTimer targetDate="2025-08-23T00:00:00" />
               </div>
             </div>
 
