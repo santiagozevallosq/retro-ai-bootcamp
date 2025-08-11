@@ -25,7 +25,7 @@ const RetroHero = () => {
           <div className="space-y-8">
 
             <div className="my-8">
-              <CountdownTimer targetDate="2025-08-23T00:00:00" />
+              <CountdownTimer targetDate="2025-08-31T00:00:00" />
             </div>
 
             <div className="terminal-text">
@@ -59,12 +59,12 @@ const RetroHero = () => {
                 {'>'}  Duración: <span className="text-primary">10 HORAS</span>
               </div>
               <div className="font-sans text-accent">
-                {'>'}  Horario: <span className="text-primary">Sábados y domingos, 10am- 12m</span>
+                {'>'}  Horario: <span className="text-primary">Domingos, 9am- 12m</span>
               </div>              
               <div className="font-sans text-accent">
-                {'>'}  Inicio: <span className="text-primary">23 DE AGOSTO</span>
+                {'>'}  Inicio: <span className="text-primary">31 DE AGOSTO</span>
               </div>
-            </div>
+            </div> 
 
 
             <Button 
